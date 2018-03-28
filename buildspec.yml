@@ -16,6 +16,7 @@ phases:
       - yarn build
   post_build:
     commands:
+      - yarn remove react react-dom react-scripts bulma
       - echo Build completed on `date`
 
 artifacts:
