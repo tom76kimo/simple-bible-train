@@ -10,7 +10,7 @@ class App extends Component {
                     <nav className="navbar" role="navigation" aria-label="main navigation">
                         <div className="navbar-brand">
                             <a className="navbar-item" href="/">
-                                Bible Train
+                                Bible Train TRain
                             </a>
                             <div className="navbar-burger">
                                 <span />
