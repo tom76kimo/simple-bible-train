@@ -20,4 +20,9 @@ phases:
 
 artifacts:
   files:
-    - build/*
+    - build
+    - package.json
+    - bin
+    - app.js
+    - .elasticbeanstalk
+    - .ebextensions
