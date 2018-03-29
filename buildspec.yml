@@ -17,6 +17,7 @@ phases:
   post_build:
     commands:
       - yarn remove react react-dom react-scripts bulma
+      - npm shrinkwrap
       - echo Build completed on `date`
 
 artifacts:
@@ -27,3 +28,4 @@ artifacts:
     - app.js
     - .elasticbeanstalk
     - .ebextensions
+    - npm-shrinkwrap.json
