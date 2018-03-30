@@ -26,6 +26,6 @@ artifacts:
     - package.json
     - bin/**/*
     - app.js
-    - .elasticbeanstalk/**/*
+    # - .elasticbeanstalk/**/*
     - .ebextensions/**/*
     - npm-shrinkwrap.json
